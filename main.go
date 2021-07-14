@@ -21,9 +21,7 @@ func main() {
 
 	app := fiber.New()
 
-	app.Get("/", func(c *fiber.Ctx) error {
-		return c.JSON(&Token{"access", "token"})
-	})
+	app.Get("/", func(c *fiber.Ctx) { c.JSON(&Token{"access", "token"}) })
 
 	app.Listen(":" + port)
 }
