@@ -3,10 +3,8 @@ module github.com/Rudge/fiber-test
 go 1.15
 
 require (
-	github.com/andybalholm/brotli v1.0.3 // indirect
-	github.com/gofiber/fiber v1.14.6 // indirect
-	github.com/gofiber/fiber/v2 v2.14.0 // indirect
-	github.com/klauspost/compress v1.13.1 // indirect
-	github.com/valyala/fasthttp v1.28.0 // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	github.com/gofiber/fiber v1.14.6
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mattn/go-isatty v0.0.17 // indirect
+	github.com/valyala/fasthttp v1.45.0 // indirect
 )
